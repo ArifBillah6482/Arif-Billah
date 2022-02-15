@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(5, 6, 31);
+}
+.btn button {
+    background-color: rgb(255, 0, 140);
+    border: none;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+}
+.btn button:hover{
+    background-color: rgb(50, 255, 255);
+    color: black;
+}
+.btn button:active {
+    background-color: rgb(15, 99, 255);
+    color: rgb(255, 253, 253);
+}
