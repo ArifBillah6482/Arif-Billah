@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(5, 6, 31);
+    background-color: rgb(21, 21, 61);
+    text-decoration: none;
 }
 .btn button {
     background-color: rgb(255, 0, 140);
@@ -11,12 +12,50 @@
     font-size: 18px;
     border-radius: 4px;
     color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
 .btn button:hover{
     background-color: rgb(50, 255, 255);
-    color: black;
+    color: black;    
 }
 .btn button:active {
     background-color: rgb(15, 99, 255);
     color: rgb(255, 253, 253);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.img {
+    border-radius: 10px;
+}
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-link a{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(234, 0, 255);
+    color: white;
+    padding: 9px 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.nav-bar .nav-link a:hover {
+    background-color: blue;
+    color: white;
+}
+.nav-bar .nav-link a:active {
+    background-color: rgb(247, 56, 22);
+}
+.logo {
+    cursor: pointer;    
 }
